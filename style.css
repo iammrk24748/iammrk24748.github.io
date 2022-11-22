@@ -69,6 +69,7 @@ h1 h2 h3 h4 h5 h6{
     font-size: 30px;
     color:#777777;
     margin-left: 175px;
+    font-weight: 500;
 }
 #header .header_left a{
     font-size: 18px;
