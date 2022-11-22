@@ -1,0 +1,404 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: arial;
+}
+
+h1 h2 h3 h4 h5 h6{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+.container_full{
+    width:100%;
+}
+
+.container{
+    width:1250px;
+    margin:0 auto;
+}
+
+.fix{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+#header{
+    
+}
+
+#header .header_left{
+    
+    float: left;
+}
+
+#header .header_left img{
+    width:100px;
+    height:70px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#header .header_left h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 200px;
+    font-size: 60px;
+    color: #222222;
+    display: block;
+}
+
+#header .header_left h4{
+    text-align: center;
+    font-size: 30px;
+    color:#777777;
+    margin-left: 175px;
+}
+#header .header_left a{
+    font-size: 18px;
+    background: #e45447;
+    color: #ffffff;
+    border: 1px solid #e45447;
+    border-radius: 30px;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-left: 10em;
+    margin-top: 5em;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+#header .header_left a:hover{
+    background: #ffffff;
+    color:#e45447;
+    word-spacing: 5px;
+}
+
+#header .header_left img.mr_tom{
+   height: 400px;
+   width:450px;
+   display: inline-block;
+   margin-left: 95px;
+}
+
+
+
+
+
+
+
+
+.menu{
+
+}
+
+.menu ul{
+    background: #ffffff;
+    border: 1px solid #f5f5f5f5;
+    display: inline-block;
+    padding: 50px 100px;
+    margin-left: 6em;
+    margin-top: 2em;
+    border-radius: 5em;
+    box-shadow: 0px 20px 50px rgb(153 153 153 / 20%)
+    
+}
+.menu ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.menu ul li a span i{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.menu ul li a{
+    padding: 20px 50px;
+    display: inline-block;
+    color: #B5B5B5;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s all ease;
+    
+}
+.menu ul li a:hover{
+    color: #1DA1F2; 
+}
+
+
+
+
+
+
+
+
+
+.about_myself{
+    margin-top: 20px;
+}
+
+
+.about_myself .myself{
+    width: 550px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+.about_myself .myself img{
+    width: 400px;
+    height: 450px;
+    margin-left: 5em;
+}
+
+
+
+.about_myself .myself h1{
+   font-size: 48px;
+   color: #222222;
+   font-weight: 700;
+   margin-top: 2.5em;
+   margin-left: 5em;
+
+}
+
+
+
+.about_myself .myself a{
+    margin-left: 16em;
+    border: 1px solid #90ACD1;
+    font-size: 15px;
+    width:25em;
+    height: 3em;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #222222;
+    transition: 0.3s all ease;
+    line-height: 43px;
+}
+.about_myself .myself a:hover{
+    background: #90ACD1;
+    color: #ffffff;
+}
+
+.about_myself .myself a.resume{
+    margin-left: 16em;
+    border: 1px solid #E45447;
+    font-size: 15px;
+    width:25em;
+    height: 3em;
+    text-align: center;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #222222;
+    transition: 0.3s all ease;
+    line-height: 43px;
+}
+.about_myself .myself a.resume:hover{
+    background: #E45447;
+    color: #ffffff;
+    word-spacing: 5px;
+}
+
+
+
+.educational_qualification{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+
+.educational_qualification h1{
+    font-size: 48px;
+    color: #222222;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.educational_qualification .single_education{
+    width:520px;
+    height: 148px;
+    float: left;
+    background: #F9F9FF;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.educational_qualification .single_education h2{
+    font-size: 21px;
+    color: #222222;
+    margin-top: 40px;
+    
+}
+
+.educational_qualification .single_education p{
+    font-size: 15px;
+    color: #999694;
+    margin-top: 11px;;
+
+}
+.educational_qualification .single_education a{
+    font-size: 15px;
+    color: #999694;
+    border: 1px solid #90ACD1;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: 0.3s all ease;
+}
+.educational_qualification .single_education a:hover{
+    background: #90ACD1;
+    color: #ffffff;
+}
+
+
+
+
+
+.my_certificates{
+    padding-bottom: 70px;
+}
+
+
+.my_certificates h1{
+   color: #222222;
+   font-size: 48px;
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 25px;
+}
+
+.theme-light .nivo-controlNav{
+    margin-left: 37em;
+    margin-top: -1.5em;
+}
+
+.theme-light a.nivo-prevNav{
+    top:13em;
+    left:0em;   
+}
+
+.theme-light a.nivo-nextNav{
+    top:13em;
+}
+
+
+.progamming_profiles_bg{
+    background-image: url(img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity:10;
+}
+
+.progamming_profiles{
+    height: 450px;
+    margin-left: 67px;
+}
+
+
+.progamming_profiles h2{
+    font-size: 48px;
+    color: #E45447;
+    text-align: center;
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+
+.progamming_profiles .single_profiles{
+    width:210px;
+    height: 240px;
+    float: left;
+    background: #ffffff;
+    margin-left: 50px;
+    margin-top: 80px;
+    border-radius: 35px 0px 35px 0px;
+}
+
+
+.progamming_profiles .single_profiles img{
+    width:100px;
+    height:120px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+
+.progamming_profiles .single_profiles a{
+    display: inline-block;
+    color: #ffffff;
+    border: #E45447;
+    padding: 10px 20px;
+    background: #1DA1F2;
+    border-radius: 30px;
+    text-align: center;
+    margin-top:23px;
+    margin-left: 55px;
+    transition: 0.3s all ease;
+}
+
+.progamming_profiles .single_profiles a:hover{
+    background:#E45447;
+    border: #E45447;
+}
+
+#footer{
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+#footer img{
+   height: 160px;
+   width: 240px;
+   display: block;
+   margin-top: 3em;
+   margin-left: 32em;
+}
+
+#footer h2{
+    font-size: 24px;
+    color: #222222;
+    margin-top: 10px;
+}
+
+#footer p{
+    color: #777777;
+    font-size: 15px;
+}
+
+
+
+
+
+
