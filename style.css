@@ -285,8 +285,18 @@ h1 h2 h3 h4 h5 h6{
 
 
 .my_certificates{
-    padding-bottom: 70px;
+ 
 }
+
+
+
+.my_certificates .certificate{
+    height: 500px;
+    width: 850px;
+    margin: 0 auto;
+    padding-bottom: 10em;
+}
+
 
 
 .my_certificates h1{
@@ -298,8 +308,8 @@ h1 h2 h3 h4 h5 h6{
 }
 
 .theme-light .nivo-controlNav{
-    margin-left: 37em;
-    margin-top: -1.5em;
+    margin-left: 26em;
+    margin-top: -4.5em;
 }
 
 .theme-light a.nivo-prevNav{
