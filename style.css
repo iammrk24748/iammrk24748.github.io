@@ -39,7 +39,7 @@ h1 h2 h3 h4 h5 h6{
 
 
 #header{
-    
+    display: block;
 }
 
 
@@ -54,7 +54,7 @@ h1 h2 h3 h4 h5 h6{
             border-right: 3px solid #2980b9;
             font-size: 35px;
             font-family: 'Chivo Mono', monospace;
-            font-weight: 400;
+            font-weight: 600;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -66,8 +66,8 @@ h1 h2 h3 h4 h5 h6{
 }
 
 #header .header_left img{
-    width:100px;
-    height:70px;
+    width:130px;
+    height:90px;
     margin-top: 40px;
     margin-left: 10px;
     display: inline-block;
@@ -77,11 +77,11 @@ h1 h2 h3 h4 h5 h6{
 #header .header_left h4{
     text-align: center;
     font-size: 25px;
-    color:#777777;
+    color:#2980b9;
     font-weight: 500;
     font-family: 'Chivo Mono', monospace;
 }
-#header .header_left a{
+#header a{
     font-size: 18px;
     background: #e45447;
     color: #ffffff;
@@ -89,12 +89,14 @@ h1 h2 h3 h4 h5 h6{
     border-radius: 30px;
     padding: 15px 30px;
     display: inline-block;
-    margin-left: 10em;
-    margin-top: 5em;
+    margin-left: -20em;
+    margin-top: 20em;
     font-weight: bold;
     transition: 0.3s all ease;
+    float: left;
+    overflow: hidden;
 }
-#header .header_left a:hover{
+#header a:hover{
     background: #ffffff;
     color:#e45447;
     word-spacing: 5px;
@@ -330,6 +332,7 @@ h1 h2 h3 h4 h5 h6{
 .theme-light a.nivo-nextNav{
     top:13em;
 }
+
 
 
 
