@@ -76,13 +76,14 @@ h1 h2 h3 h4 h5 h6{
 #header h4{
     text-align: center;
     font-size: 25px;
-    color:#00ADEF;
+    color:#e45447;
     font-weight: 500;
     font-family: 'Chivo Mono', monospace;
     margin-left: -38em;
     display: inline-block;
     overflow: hidden;
     margin-top: 10em;
+    word-spacing: 5px;
 }
 #header a{
     font-size: 18px;
