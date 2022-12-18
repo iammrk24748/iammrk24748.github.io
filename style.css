@@ -56,7 +56,7 @@ h1 h2 h3 h4 h5 h6{
             color: #00ADEF;
             border-right: 3px solid #00ADEF;
             font-size: 35px;
-            font-family: 'Chivo Mono', monospace;
+            font-family: 'Red Hat Mono', monospace;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -78,16 +78,17 @@ h1 h2 h3 h4 h5 h6{
 
 #header h4{
     text-align: center;
-    font-size: 25px;
-    color:#e45447;
+    font-size: 28px;
+    color: #000;
     font-weight: 500;
-    font-family: 'Chivo Mono', monospace;
-    margin-left: -38em;
+    font-family: 'Londrina Shadow', cursive;
+    margin-left: -36em;
     display: inline-block;
     overflow: hidden;
-    margin-top: 10em;
+    margin-top: 9em;
     word-spacing: 5px;
 }
+
 #header a{
     font-size: 18px;
     background: #e45447;
@@ -172,7 +173,11 @@ h1 h2 h3 h4 h5 h6{
 
 
 .about_myself{
-    margin-top: 20px;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    display: block;
+    overflow: hidden;
+
 }
 
 
@@ -187,6 +192,7 @@ h1 h2 h3 h4 h5 h6{
 .about_myself .myself img{
     width: 400px;
     height: 450px;
+    margin-left: 3em;
 }
 
 
@@ -248,6 +254,8 @@ h1 h2 h3 h4 h5 h6{
 .educational_qualification{
     margin-top: 3em;
     margin-left: 15px;
+    padding-bottom: 2em;
+    overflow: hidden;
 }
 
 
@@ -303,7 +311,7 @@ h1 h2 h3 h4 h5 h6{
 
 
 .my_certificates{
- 
+    margin-top: -2em;
 }
 
 
@@ -312,7 +320,7 @@ h1 h2 h3 h4 h5 h6{
     height: 500px;
     width: 850px;
     margin: 0 auto;
-    padding-bottom: 10em;
+    padding-bottom: 9em;
 }
 
 
@@ -345,6 +353,8 @@ h1 h2 h3 h4 h5 h6{
 .progamming_profiles{
     height: 450px;
     margin-left: 67px;
+    margin-top: 2em;
+    margin-bottom: -5em;
 }
 
 
@@ -362,7 +372,7 @@ h1 h2 h3 h4 h5 h6{
     float: left;
     background: #ffffff;
     margin-left: 50px;
-    margin-top: 80px;
+    margin-top: 3em;
     border-radius: 35px 0px 35px 0px;
 }
 
@@ -396,7 +406,7 @@ h1 h2 h3 h4 h5 h6{
 
 #footer{
     text-align: center;
-    padding-bottom: 5em;
+    padding-bottom: 3em;
 }
 
 #footer img{
