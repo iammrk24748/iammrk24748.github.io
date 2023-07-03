@@ -446,7 +446,7 @@ section {
 --------------------------------------------------------------*/
 
 #resume {
-  margin-top: -4em;
+  margin-top: -10em;
 }
 
 
@@ -548,7 +548,6 @@ section {
   height: 100%;
   display: block;
   padding-bottom: 45em;
-  width: 70%;
 }
 
 
@@ -558,10 +557,6 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.exs{
-  margin-top: -10em;
-}
-
 
 .skills .progress {
   height: 60px;
@@ -599,12 +594,16 @@ section {
 
 
 
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  margin-top: -5em;
-}
 .contact .info {
   width: 100%;
   background: #fff;
@@ -810,7 +809,7 @@ section {
     margin-top: -100px;
   }
   .exs{
-    margin-top: -25em;
+    margin-top: -550px;
   }
   .exc{
     margin-top: -100px;
@@ -820,8 +819,9 @@ section {
     margin-top: 500px;
     
   }
+}
 
-  .blider{
-    width: 90%;
-  }
+
+.exr{
+  margin-top: 500px;
 }
