@@ -311,12 +311,7 @@ const getNextActiveElement = (list, activeElement, shouldGetNext, isCycleAllowed
   return list[Math.max(0, Math.min(index, listLength - 1))];
 };
 
-/**
- * --------------------------------------------------------------------------
- * Bootstrap (v5.2.3): dom/event-handler.js
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- * --------------------------------------------------------------------------
- */
+
 /**
  * Constants
  */
