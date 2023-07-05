@@ -1215,3 +1215,20 @@ section {
 .exc{
   padding-bottom: 47em;
 }
+
+
+
+@media only screen and (max-width: 720px) {
+  .exc{
+    margin-top: -100px;
+  }
+
+  .exb{
+    margin-top: -30em;
+  }
+  
+  .exb2{
+    margin-left: 20px;
+  }
+
+}
