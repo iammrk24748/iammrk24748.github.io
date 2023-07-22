@@ -1213,7 +1213,9 @@ section {
 
 /* external css */
 .exc{
-  padding-bottom: 47em;
+  padding-bottom: 40em;
+  width: 75%;
+  margin: 0 auto;
 }
 
 
